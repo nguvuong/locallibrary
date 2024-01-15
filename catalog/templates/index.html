@@ -16,8 +16,8 @@
     <li><strong>Genres available:</strong> {{ num_genres }}</li>
     <li><strong>Numbers of wild books:</strong> {{ number_wild_books }}</li>
 </ul>
-{% endblock %}
 
-{% block title %}
-<title>My Local Library</title>
+<p>
+    You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.
+</p>
 {% endblock %}
